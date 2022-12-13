@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    color: #393939;
+    width: 100%;
+    height: 100%;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    html, body {
+        font-size: 28px;
+    }
+}
+
+main, header {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header.page-header > a {
+    font-size: 1rem;
+}
+
+header.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.main-nav {
+    list-style: none;
+}
+
+ul.main-nav > li {
+    display: inline-block;
+    margin-left: 0.5rem;
+    font-size: 0.7rem
+}
+
+h1 {
+    font-weight: 300;
+}
+
+img {
+    border-radius: 5px;
+}
+
+main img {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+main > p {
+    font-size: 1rem;
+}
+
+.resume {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.resume > div {
+    flex-basis: 20rem;
+    flex-grow: 1;
+    margin: 0 1rem;
+}
+
+.resume section, .resume p {
+    margin-bottom: 1rem;
+}
+
+.resume h2 {
+    text-decoration: underline;
+    font-weight: 300;
+}
+
+.resume h4 > span {
+    float: right;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.resume h4 {
+    font-weight: 400;
+}
+
+.resume ul {
+    margin-left: 1rem;
+    list-style-position: outside;
+}
